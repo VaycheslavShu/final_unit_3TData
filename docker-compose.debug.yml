@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  finalunit3tdata:
+    image: finalunit3tdata
+    build:
+      context: .
+      dockerfile: ./Dockerfile
